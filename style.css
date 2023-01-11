@@ -1,0 +1,41 @@
+html,body{
+    background-color: black;
+}
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    gap: 72px;
+    border: 4px solid rgb(4, 4, 4);
+    box-shadow: 5px 10px 18px #433f3fbf;
+    padding: 10px;
+    width: 98%;
+    height: 15%;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+ul:hover li a{
+    color: #30edf4;
+}
+ul:hover li a:not(:hover){
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+h1{
+    color: wheat;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 3rem;
+
+}
